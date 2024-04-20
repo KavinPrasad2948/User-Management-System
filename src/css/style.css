@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Just+Another+Hand&family=Kalam:wght@300;400;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Qwigley&family=Qwitcher+Grypen:wght@400;700&display=swap');
+*{
+    font-family: "Kalam", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+.user-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .user-list-heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .user-list-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-list-table th,
+  .user-list-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .user-list-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .user-list-table td {
+    text-align: left;
+  }
+  
+  .user-list-table button {
+    margin-right: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-danger:hover {
+    background-color: #bd2130;
+  }
+  
